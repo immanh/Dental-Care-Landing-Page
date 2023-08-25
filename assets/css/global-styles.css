@@ -16,3 +16,18 @@ body {
     --title-color: #10375c;
     --description-color: #575f66;
 }
+a {
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    min-width: 205px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 17px 0;
+    border-radius: 30px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
