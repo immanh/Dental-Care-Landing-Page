@@ -7,6 +7,7 @@
             content="width=device-width, initial-scale=1.0"
         />
         <title>Shine Smile</title>
+        <!-- Embedded Fonts -->
         <link
             rel="preconnect"
             href="https://fonts.googleapis.com"
@@ -17,7 +18,7 @@
             crossorigin
         />
         <link
-            href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@400;600&family=Sora:wght@300;400;600&display=swap"
             rel="stylesheet"
         />
         <!-- Favicon -->
@@ -140,6 +141,10 @@
         <link
             rel="stylesheet"
             href="./assets/css/installation.css"
+        />
+        <link
+            rel="stylesheet"
+            href="./assets/css/news.css"
         />
     </head>
     <body>
@@ -565,6 +570,110 @@
                                 </a>
                             </div>
                         </section>
+                    </div>
+                </div>
+            </section>
+            <!-- News -->
+            <section class="news">
+                <div class="container">
+                    <div class="news__inner">
+                        <section class="news__content">
+                            <h2 class="news__sub-title line-clamp">Read Latest News & Events.</h2>
+                            <a
+                                href="#!"
+                                class="news__blogs-link"
+                                >Read All Blog</a
+                            >
+                            <div class="news__row">
+                                <button class="arrow arrow--disabled">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="6"
+                                        height="12"
+                                        viewBox="0 0 6 12"
+                                        fill="none"
+                                    >
+                                        <path
+                                            d="M5.5 1L0.5 6L5.5 11"
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </button>
+                                <button class="arrow arrow--active">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="6"
+                                        height="12"
+                                        viewBox="0 0 6 12"
+                                        fill="none"
+                                    >
+                                        <path
+                                            d="M0.5 1L5.5 6L0.5 11"
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </button>
+                            </div>
+                        </section>
+                        <div class="news__list">
+                            <div class="row row-cols-2">
+                                <div class="col">
+                                    <article class="news__blog">
+                                        <figure class="news__blog-thumb">
+                                            <img
+                                                src="./assets/img/news/news-1.jpg"
+                                                alt=""
+                                                class="news__blog-img"
+                                            />
+                                        </figure>
+                                        <section class="news__body">
+                                            <h3 class="news__heading line-clamp">
+                                                Key Considerations for Regulatory Compliant.
+                                            </h3>
+                                            <p class="news__desc line-clamp">
+                                                It’s easy to think about medical care from a narrow perspective. You go
+                                                to the hospital.
+                                            </p>
+                                            <a
+                                                href="#!"
+                                                class="news__more-link"
+                                                >Learn More</a
+                                            >
+                                        </section>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="news__blog">
+                                        <figure class="news__blog-thumb">
+                                            <img
+                                                src="./assets/img/news/news-2.jpg"
+                                                alt=""
+                                                class="news__blog-img"
+                                            />
+                                        </figure>
+                                        <section class="news__body">
+                                            <h3 class="news__heading line-clamp">
+                                                What Is Population Health Management?
+                                            </h3>
+                                            <p class="news__desc line-clamp">
+                                                It’s easy to think about medical care from a narrow perspective. You go
+                                                to the hospital.
+                                            </p>
+                                            <a
+                                                href="#!"
+                                                class="news__more-link"
+                                            >
+                                                Learn More
+                                            </a>
+                                        </section>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
