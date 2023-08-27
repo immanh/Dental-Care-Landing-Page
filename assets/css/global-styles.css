@@ -37,3 +37,22 @@ a {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+.arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+    color: var(--description-color);
+    cursor: pointer;
+}
+.arrow + .arrow {
+    margin-left: 18px;
+}
+.arrow:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
