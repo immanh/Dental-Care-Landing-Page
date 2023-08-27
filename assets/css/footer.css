@@ -1,0 +1,115 @@
+.footer {
+    margin-top: 170px;
+    background-color: var(--title-color);
+    padding: 100px 0 42px;
+}
+
+.footer__introduce {
+    color: #a9b3bb;
+    font-family: Open Sans, sans-serif;
+    margin-top: 21px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.footer__heading {
+    font-family: Open Sans, sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.footer__list {
+    margin: 20px 0 28px;
+}
+
+.footer__item {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
+.footer__item-link {
+    color: #a9b3bb;
+}
+
+.footer__item-link:hover {
+    text-decoration: underline;
+}
+
+.footer__social {
+    display: flex;
+    column-gap: 10px;
+    margin: 20px 0 28px;
+}
+
+.footer__social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    background-color: #fff;
+}
+.footer__social-link:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+}
+.footer__subscribe-para {
+    max-width: 273px;
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: Open Sans, sans-serif;
+    line-height: 1.85;
+    margin-top: 20px;
+}
+
+.footer__row {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer__input {
+    width: 212px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid var(--description-color);
+    background-color: transparent;
+    border-radius: 4px;
+    outline: none;
+}
+.footer__subscribe-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 108px;
+    padding: 10px 0;
+    margin-left: 12px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.footer__copyright {
+    position: relative;
+    color: #aab3ba;
+    font-family: Open Sans, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+    text-align: center;
+    margin-top: 28px;
+}
+.footer__copyright::before {
+    position: absolute;
+    top: -28px;
+    left: 0;
+    right: 0;
+    content: "";
+    height: 1px;
+    background: #406181;
+}
