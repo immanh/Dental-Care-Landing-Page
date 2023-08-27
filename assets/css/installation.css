@@ -1,0 +1,42 @@
+.installation {
+    margin-bottom: 170px;
+}
+
+.installation__wrapper {
+    position: relative;
+    background-color: var(--primary-color);
+    padding: 76px 70px 75px 514px;
+    border-radius: 4px;
+    height: 427px;
+}
+
+.installation__app-img {
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+
+.installation__sub-title {
+    max-width: 489px;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.installation__desc {
+    --line-clamp: 3;
+    max-width: 586px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 18px;
+}
+
+.installation__row {
+    display: flex;
+    column-gap: 28px;
+    margin-top: 38px;
+}
