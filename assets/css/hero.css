@@ -1,0 +1,72 @@
+/* ====Hero==== */
+.hero {
+    background-color: var(--title-color);
+    padding-top: 76px;
+    height: calc(100vh - 98px);
+}
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.hero__info {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__info-title {
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1.14;
+    letter-spacing: -1.4px;
+}
+
+.hero__info-desc {
+    margin-top: 22px;
+    color: #c9d2da;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66;
+}
+
+.hero__row {
+    margin-top: 38px;
+    display: flex;
+    column-gap: 38px;
+    align-items: center;
+}
+
+.hero__info-tel {
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+.hero__media {
+    flex-grow: 1;
+}
+
+.hero__images {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hero__img {
+    width: 330px;
+    object-fit: cover;
+}
+.hero__img:last-child {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 210px;
+    height: 410px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.hero__img:first-child {
+    border-radius: 6px;
+}
