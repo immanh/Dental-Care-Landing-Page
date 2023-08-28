@@ -19,6 +19,53 @@ body {
 a {
     text-decoration: none;
 }
+/* Logo */
+.logo {
+    display: inline-flex;
+    position: relative;
+    font-size: 1rem;
+}
+
+.logo__circle::before,
+.logo__circle::after {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.logo__circle::before {
+    width: 3em;
+    height: 3em;
+    background-color: var(--primary-color);
+}
+
+.logo__circle::after {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 1.6em;
+    height: 1.6em;
+    background-color: #fff;
+}
+
+.logo__text {
+    margin-left: 6px;
+    color: #fff;
+    text-align: right;
+}
+
+.logo__brand {
+    display: block;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+.logo__brand--small {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
 .btn {
     display: inline-block;
     min-width: 205px;

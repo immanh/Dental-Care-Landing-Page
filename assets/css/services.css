@@ -63,11 +63,13 @@
 }
 
 .services__item:hover .services__item-icon,
-.services__item-icon--active {
+.services__item--active .services__item-icon {
     background-color: var(--primary-color);
     color: #fff;
 }
-.services__item:hover {
+
+.services__item:hover,
+.services__item--active {
     box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
 }
 
