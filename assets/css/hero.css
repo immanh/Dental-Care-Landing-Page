@@ -32,10 +32,10 @@
 }
 
 .hero__row {
-    margin-top: 38px;
     display: flex;
     column-gap: 38px;
     align-items: center;
+    margin-top: 38px;
 }
 
 .hero__info-tel {
@@ -59,14 +59,13 @@
     object-fit: cover;
 }
 .hero__img:last-child {
-    position: relative;
-    top: 0;
-    left: 0;
     width: 210px;
     height: 410px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
 .hero__img:first-child {
+    position: relative;
+    margin-right: -6px;
     border-radius: 6px;
 }
