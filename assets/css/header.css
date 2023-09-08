@@ -1,8 +1,9 @@
 .header {
+    --top-padding: calc(30px - var(--menu-padding));
     background-color: var(--title-color);
-    padding-top: 30px;
+    padding-top: var(--top-padding);
     position: sticky;
-    top: -30px;
+    top: calc(-1 * var(--top-padding));
     left: 0;
     z-index: 1;
 }
