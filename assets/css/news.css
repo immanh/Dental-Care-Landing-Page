@@ -51,7 +51,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 12px 12px 0 0;
 }
 
 .news__body {
@@ -77,11 +76,11 @@
 .news__more-link {
     display: inline-block;
     margin-top: 12px;
-    color: var(--primary-color);
+    color: var(--title-color);
     font-size: 1.4rem;
     font-weight: 500;
 }
 .news__more-link:hover {
     text-decoration: underline;
-    color: var(--title-color);
+    color: var(--primary-color);
 }

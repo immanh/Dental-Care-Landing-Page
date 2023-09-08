@@ -12,12 +12,13 @@
     font-weight: 600;
     letter-spacing: -1px;
     line-height: 1.2;
-    margin-bottom: 38px;
+    margin-bottom: 18px;
 }
 
 .appointment__desc {
     position: relative;
     max-width: 617px;
+    padding-top: 18px;
     margin-bottom: 38px;
     color: var(--description-color);
     font-size: 1.6rem;
@@ -26,14 +27,14 @@
     text-align: center;
 }
 .appointment__desc::before {
-    position: absolute;
-    top: -18px;
-    left: 50%;
-    transform: translateX(-50%);
     content: "";
+    position: absolute;
+    top: 0;
+    /* Căn giữa C2 thay vì dùng transform 50% */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     width: 136px;
     height: 2px;
-    /* Bugs */
     background-color: var(--primary-color);
-    z-index: 1;
 }

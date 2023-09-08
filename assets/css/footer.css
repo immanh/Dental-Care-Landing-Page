@@ -75,10 +75,11 @@
 }
 
 .footer__input {
+    color: #fff;
     width: 212px;
     height: 46px;
     padding: 10px;
-    border: 1px solid var(--description-color);
+    border: 1px solid #406181;
     background-color: transparent;
     border-radius: 4px;
     outline: none;
